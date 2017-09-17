@@ -35,7 +35,9 @@ RDEPEND="
 	>=dev-python/tqdm-4.8.4[${PYTHON_USEDEP}]
 	>=sci-libs/scipy-0.12[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
-  >=dev-python/hpy-2.7.0[${PYTHON_USEDEP}]
+>=dev-python/h5py-2.7.0[${PYTHON_USEDEP}]
+>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
+virtual/python-enum34[${PYTHON_USEDEP}]
 "
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
