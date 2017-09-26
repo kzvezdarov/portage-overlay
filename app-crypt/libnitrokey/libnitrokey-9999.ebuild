@@ -1,8 +1,11 @@
+# Copyright 1999-2017 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
 EAPI=6
 
 inherit cmake-utils
 
-DESCRIPTION="Nitrokey Pro and Storage communication api"
+DESCRIPTION="Nitrokey Pro and Storage communication API"
 HOMEPAGE="https://github.com/Nitrokey/libnitrokey"
 
 if [[ ${PV} == 9999 ]]; then
