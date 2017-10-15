@@ -5,7 +5,7 @@ EAPI=6
 
 inherit cmake-utils
 
-DESCRIPTION="Music player"
+DESCRIPTION="A terminal-based music player, metadata indexer, and server."
 HOMEPAGE="https://github.com/clangen/musikcube"
 SRC_URI="https://github.com/clangen/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
@@ -33,15 +33,3 @@ DEPEND="
 	virtual/pkgconfig"
 
 CMAKE_IN_SOURCE_BUILD=True
-
-src_prepare() {
-  cmake-utils_src_prepare
-}
-
-src_configure() {
-  cmake-utils_src_configure
-}
-
-src_install() {
-  cmake-utils_src_install
-}

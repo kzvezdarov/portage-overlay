@@ -5,6 +5,6 @@
 		<email>kzvezdarov@gmail.com</email>
 	</maintainer>
 	<longdescription lang="en">
-		The Musikcube player.
+		A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in C++.
 	</longdescription>
 </pkgmetadata>
