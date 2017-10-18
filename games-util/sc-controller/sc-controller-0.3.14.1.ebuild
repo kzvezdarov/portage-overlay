@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -12,7 +11,7 @@ DESCRIPTION="uinput driver and GTK3 GUI for Steam Controller"
 HOMEPAGE="https://github.com/kozec/sc-controller"
 SRC_URI="https://github.com/kozec/sc-controller/archive/v${PV}.tar.gz"
 
-LICENSE="GPL2"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 #IUSE=""

@@ -26,8 +26,6 @@ RDEPEND="${DEPEND}
 virtual/libusb:1
 dev-libs/hidapi:0"
 
-CMAKE_BUILD_TYPE=RelWithDebInfo
-
 src_prepare() {
   eapply "${FILESDIR}/${PN}-static-install.patch"
   cmake-utils_src_prepare
